@@ -10,7 +10,7 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!-- customized css -->
     <link rel="stylesheet" href="style.css" type="text/css">
-
+   <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -32,43 +32,20 @@
 
     <!-- NAVBAR -->
 
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-        <!-- Container wrapper -->
-        <div class="container-fluid">
-            <!-- Navbar brand -->
-            <a class="navbar-brand" href="index.html">CafeHub</a>
-
-            <!-- Toggle button -->
-            <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
-                data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <i class="fas fa-bars"></i>
-            </button>
-
-            <!-- Collapsible wrapper -->
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <!-- Left links -->
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="item nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#bestseller">Bestseller</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#Categories">Categories</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#About">About Us</a>
-                    </li>
-
-                </ul>
-
-            </div>
-
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top ">
+        <a class="navbar-brand" href="">CafeHub</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#bestseller">Bestseller</a></li>
+            <li class="nav-item"><a class="nav-link" href="#Categories">Categories</a></li>
+            <li class="nav-item"><a class="nav-link" href="#About">About Us</a></li>
+          </ul>
         </div>
-
-    </nav>
+      </nav>
 
     <div class="image-container">
         <div class="row">
@@ -77,7 +54,7 @@
                 <div class="overlay-text">
                     <p>Made with </p>
                     <p>Love</p><br>
-                    <button type="button" class="btn btn-primary btn-lg"><a href="#Categories">Order Now</a></button>
+                    <button type="button" class="btns btn-primary btn-lg"><a href="order.html">Order Now</a></button>
 
                 </div>
             </div>
@@ -92,154 +69,160 @@
 
 
 
-    <!-- BEST SELLER SECTION -->
-    <div class="best-seller">
-        <div class="heading">
-            <p><a name="bestseller">Best Seller</a></p>
-        </div>
-        <div class="row">
-
-            <div class="col-lg-3 col-md-4">
-                <div class="card" style="width: 15rem;">
-                    <img src="Images/maggi png.png" height="200px" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <p class="card-text">Chowmin</p>
-                        <p class="card-text">5$</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-4">
-                <div class="card" style="width: 15rem;">
-                    <img src="Images/pc-fotor-20231230114417.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <p class="card-text">Paneer Chilli</p>
-                        <p class="card-text">8$</p>
-
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-4">
-                <div class="card" style="width: 15rem;">
-                    <img src="Images/coffee-brain-caffeine-neuroscincces-fotor-20231230125755.png" class="card-img-top"
-                        alt="...">
-                    <div class="card-body">
-                        <p class="card-text">Coffee</p>
-                        <p class="card-text">5$</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-4">
-                <div class="card" style="width: 15rem;">
-                    <img src="Images/Mojito-FT-RECIPE1022-2000-85cdb1eb59454847b713713e32e365c0-fotor-20231230141522.png"
-                        class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <p class="card-text">Mojito
-                        </p>
-                        <p class="card-text">3$</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
+    
+<!-- BEST SELLER SECTION -->
+<div class="best-seller">
+    <div class="heading">
+        <p><a name="bestseller">Best Seller</a></p>
     </div>
+    <div class="row">
+
+        <div class="col-lg-3 col-md-4">
+            <div class="card" >
+                <img src="Images/maggi png.png" height="200px" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Chowmin</p>
+                    <p class="card-text">5$</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4">
+            <div class="card" >
+                <img src="Images/pc-fotor-20231230114417.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Paneer Chilli</p>
+                    <p class="card-text">8$</p>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4">
+            <div class="card" >
+                <img src="Images/coffee-brain-caffeine-neuroscincces-fotor-20231230125755.png" class="card-img-top"
+                    alt="...">
+                <div class="card-body">
+                    <p class="card-text">Coffee</p>
+                    <p class="card-text">5$</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4">
+            <div class="card" >
+                <img src="Images/Mojito-FT-RECIPE1022-2000-85cdb1eb59454847b713713e32e365c0-fotor-20231230141522.png"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Mojito
+                    </p>
+                    <p class="card-text">3$</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- <div class="gif">
+   <img src="Images/144.png" alt="">
+</div> -->
     <!-- CATEGORIES -->
-    <a name="Categories"></a>
-    <div class="services">
-        <div class="heading">
-            <p>Categories</p>
+    <div class="centre_services">
+        <a name="Categories"></a>
+        <div class="services">
+            <div class="heading">
+                <p>Categories</p>
+            </div>
+            <div class="col">
+                <div class="row">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="box-image">
+                                <img src="Images/210211140233-03-classic-italian-dishes.jpg" width="85%" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="cname">
+                                <p>Italian</p>
+    
+                            </div>
+                            <ul>
+                                <li>Maggie</li>
+                                <li>Noodles</li>
+                                <li>Manchurian</li>
+    
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="row">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="box-image">
+                                <img src="Images/starters-recipes-116741-1.jpg" width="85%" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="cname">
+                                <p>Starter</p>
+    
+                            </div>
+                            <ul>
+                                <li>Paneer Chilli</li>
+                                <li>Mushroom Chilli</li>
+                                <li>Baby Corn</li>
+    
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="row">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="box-image">
+                                <img src="Images/download (1).jpeg.jpg" width="85%" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="cname">
+                                <p>Beaverage</p>
+    
+                            </div>
+                            <ul>
+                                <li>Tea</li>
+                                <li>Coffee</li>
+                                <li>Mojito</li>
+    
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="row">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="box-image">
+                                <img src="Images/charred-chicken-with-sweet-potatoes-and-oranges-BA-011917.webp" width="85%"
+                                    alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="cname">
+                                <p>Main Course</p>
+                            </div>
+                            <ul>
+                                <li>Paneer</li>
+                                <li>Mix Veg</li>
+                                <li>Veg Biryani</li>
+    
+                            </ul>
+    
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="col">
-            <div class="row">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="box-image">
-                            <img src="Images/210211140233-03-classic-italian-dishes.jpg" width="85%" alt="">
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="cname">
-                            <p>Italian</p>
-
-                        </div>
-                        <ul>
-                            <li>Maggie</li>
-                            <li>Noodles</li>
-                            <li>Manchurian</li>
-
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="box-image">
-                            <img src="Images/starters-recipes-116741-1.jpg" width="85%" alt="">
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="cname">
-                            <p>Starter</p>
-
-                        </div>
-                        <ul>
-                            <li>Paneer Chilli</li>
-                            <li>Mushroom Chilli</li>
-                            <li>Baby Corn</li>
-
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="box-image">
-                            <img src="Images/download (1).jpeg.jpg" width="85%" alt="">
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="cname">
-                            <p>Beaverage</p>
-
-                        </div>
-                        <ul>
-                            <li>Tea</li>
-                            <li>Coffee</li>
-                            <li>Mojito</li>
-
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="box-image">
-                            <img src="Images/charred-chicken-with-sweet-potatoes-and-oranges-BA-011917.webp" width="85%"
-                                alt="">
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="cname">
-                            <p>Main Course</p>
-                        </div>
-                        <ul>
-                            <li>Paneer</li>
-                            <li>Mix Veg</li>
-                            <li>Veg Biryani</li>
-
-                        </ul>
-
-                    </div>
-                </div>
-            </div>
-        </div>
+    
     </div>
-
+  
     <!-- REVIEW -->
     <section id="testimonials">
         <div id="testimonial-carousel" class="carousel slide" data-bs-ride="false">
@@ -303,16 +286,6 @@
 
 
     </div>
-
-
-
-
-
-
-
-
-
-
 
 
     <!-- bootstrap javascript -->
