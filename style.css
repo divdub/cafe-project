@@ -28,6 +28,12 @@ body, html{
   background-color: black;
   
 }
+.animation{
+  position: relative;
+  top : 200px;
+  left:300px;
+ 
+}
 
 .btns {
   position: absolute;
@@ -88,9 +94,31 @@ body, html{
 .best-seller {
   background-color: #FCF5ED;
   height: 500px;
-  width: 100%;
-  padding-top: 80px;
-  padding-bottom: 50px;
+  display:flex;
+  flex-direction: row;
+ flex-wrap: wrap;
+ justify-content: space-around;
+ 
+
+}
+.best-seller>*{
+  /* selecting all the child of best-seller div */
+}
+.card {
+ 
+  height: 350px;
+  padding: 15px;
+  width:200px ;
+  
+  border-radius: 45px;
+  background-color: aliceblue;
+}
+
+.card-text {
+  text-align: center;
+}
+.c1{
+  order:4;
 }
 .row{
   margin-right: 0px;
@@ -130,19 +158,7 @@ body, html{
   width: 100%;
 }
 
-.card {
-  position: absolute;
-  height: 350px;
-  padding: 15px;
-  width:15% ;
-  margin-left: 50px;
-  border-radius: 50px;
-  background-color: aliceblue;
-}
 
-.card-text {
-  text-align: center;
-}
 
 #testimonials {
   text-align: center;
@@ -165,9 +181,16 @@ body, html{
 
 .section {
   background-color: #272829;
-  padding-bottom: 100px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  
 }
-
+.para{
+  height: 200px;
+  width: 100%;
+  margin-top: 300px;
+  
+}
 .sec-1-a {
   font-family: montserrat;
   color: floralwhite;
@@ -219,23 +242,21 @@ body, html{
   .row{
     margin-right: 0px;
   }
+  .best-seller{
+    padding-bottom: 50px;
+  }
   .card {
-    position: absolute;
-    height:40%;
+  
+    height:300px;
     padding: 15px;
-    width:15% ;
-    margin-left: 50px;
     border-radius: 50px;
     background-color: aliceblue;
   }
   @media (max-width: 1195px) {
     .best-seller {
     
-      background-color: #FCF5ED;
-      height: 500px;
-      width: 100%;
-      padding-top: 80px;
-      padding-bottom: 50px;
+    flex-wrap: wrap;
+      
     }
     /* .grid-container{
       height: 50px;
@@ -245,16 +266,7 @@ body, html{
       grid-template-rows: 250px 250px;
    
     } */
-    .card {
     
-
-      position: absolute;
-      height: 250px;
-      width:15% ;
-      margin-left: 50px;
-      border-radius: 50px;
-      background-color: aliceblue;
-    }
     .card-text {
       text-align: center;
     }
